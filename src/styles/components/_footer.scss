@@ -1,0 +1,47 @@
+.footerMenuContainer {
+    width: 100%;
+    bottom: 0;
+    flex-shrink: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 100;
+
+}
+
+.footerMenuWrapper {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: grey;
+    text-align: center;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+
+        .isActive {
+
+        }
+    }
+
+    .isActive {
+        color: green;
+        border-top: 5px solid green;
+    }
+
+    i {
+        font-size: 23px;
+    }
+}
+
+.footerMenu {
+    width: 60px;
+    padding-top: 10px;
+}
+
+.footerMenuName {
+    font-size: 11px;
+}
+
