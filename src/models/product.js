@@ -1,7 +1,8 @@
 export const productList = [
     {
-        url: '/assets/product/alpukat',
+        url: '/assets/product/alpukat.jpg',
         name: 'Alpukat Mentega Premium',
+        category: 'Buah',
         description: '',
         shortDescription: 'Siap makan dalam 1-2 hari, simpan pada suhu ruang',
         rating: 5,
@@ -12,15 +13,16 @@ export const productList = [
         maxOrder: ''
     },
     {
-        url: '/assets/icon/all.png',
-        name: 'Semua Produk',
+        url: '/assets/product/apel.jpg',
+        name: 'Apel Red Del',
+        category: 'Buah',
         description: '',
-        shortDescription: '',
-        rating: '',
-        userRating: 0,
-        weight: '',
-        price: '',
-        specialPrice: '',
-        maxOrder: ''
+        shortDescription: 'Rasa manis, tekstur renyah, sedikit lunak',
+        rating: 5,
+        userRating: 9871,
+        weight: '500 gram / pack',
+        price: 19000,
+        specialPrice: 0,
+        maxOrder: 'Maks. 1 per hari'
     },
 ];
